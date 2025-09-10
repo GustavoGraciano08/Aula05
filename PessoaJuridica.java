@@ -10,8 +10,10 @@ public class PessoaJuridica extends Funcionario {
 		this.imposto = imposto;
 	}
 
+	@Override
 	public double calculoSalario() {
 		return valorBruto - imposto;
 
 }
 }
+
